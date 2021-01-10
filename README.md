@@ -9,6 +9,4 @@ Service xrdp-sesman start <br />
 update-rc.d xrdp enable <br />
 
 ### Install Terminator
-sudo add-apt-repository ppa:gnome-terminator<br />
-sudo apt-get update<br />
-sudo apt-get install terminator<br />
+sudo apt-get install terminator
