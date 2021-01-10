@@ -1,5 +1,10 @@
 # Configuring new machine
-### Installing rdp
 Apt-get update && apt-get upgrade <br />
 Apt-get dist-upgrade <br />
-Apt-get install xrdp
+### Installing rdp
+Apt-get install xrdp<br /><br />
+After xrdp is installed you can start the server with the following command:<br />
+Service xrdp start<br />
+Service xrdp-sesman start <br />
+update-rc.d xrdp enable <br />
+
