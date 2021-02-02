@@ -13,4 +13,4 @@ sudo apt-get install terminator
 
 
 ### XSS
-Cheatsheet: file:///C:/Users/Marta/AppData/Local/Temp/cheat-sheet.pdf
+Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
