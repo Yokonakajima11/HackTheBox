@@ -10,3 +10,7 @@ update-rc.d xrdp enable <br />
 
 ### Install Terminator
 sudo apt-get install terminator
+
+
+### XSS
+Cheatsheet: file:///C:/Users/Marta/AppData/Local/Temp/cheat-sheet.pdf
