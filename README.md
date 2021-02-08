@@ -14,3 +14,6 @@ sudo apt-get install terminator
 
 ### XSS
 Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+
+###Nmap
+Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
