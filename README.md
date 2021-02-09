@@ -24,3 +24,6 @@ Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 ### RSA
 https://github.com/ius/rsatool<br />
 https://github.com/Ganapati/RsaCtfTool
+
+### SSH
+https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e8d5d
