@@ -27,3 +27,7 @@ https://github.com/Ganapati/RsaCtfTool
 
 ### SSH
 https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e8d5d
+
+
+### HASH
+Identify hashes: https://hashes.com/en/tools/hash_identifier
