@@ -31,4 +31,4 @@ https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e
 
 ### HASH
 Identify hashes: https://hashes.com/en/tools/hash_identifier<br />
-Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master  -  wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py<br />
+Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master  -*wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py*<br /> -*python3 hash-identifier.py*
