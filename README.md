@@ -37,3 +37,10 @@ Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-
 
 ### Active Directory
 PowerView-3.0 tips and tricks https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
+
+### Ghostcat
+https://github.com/00theway/Ghostcat-CNVD-2020-10487
+
+### Steganogrphy
+https://pequalsnp-team.github.io/cheatsheet/steganography-101 <br />
+https://github.com/DominicBreuker/stego-toolkit
