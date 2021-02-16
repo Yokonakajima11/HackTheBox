@@ -44,3 +44,6 @@ https://github.com/00theway/Ghostcat-CNVD-2020-10487
 ### Steganogrphy
 https://pequalsnp-team.github.io/cheatsheet/steganography-101 <br />
 https://github.com/DominicBreuker/stego-toolkit
+
+### Java Deserialization Vulnerabilities
+https://github.com/joaomatosf/jexboss
