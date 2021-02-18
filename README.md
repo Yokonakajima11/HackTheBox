@@ -47,3 +47,7 @@ https://github.com/DominicBreuker/stego-toolkit
 
 ### Java Deserialization Vulnerabilities
 https://github.com/joaomatosf/jexboss
+
+# commands
+sudo -l -U user <br />
+https://gtfobins.github.io/
