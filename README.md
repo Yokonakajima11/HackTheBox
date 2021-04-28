@@ -34,7 +34,8 @@ Identify hashes: https://hashes.com/en/tools/hash_identifier<br />
 Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master <br />
 - *wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py*<br /> 
 - *python3 hash-id.py*
-
+- https://www.hackingarticles.in/beginner-guide-john-the-ripper-part-1/
+- john --wordlist=/usr/share/john/password.lst --format=raw-sha1 crack.txt
 ### Active Directory
 PowerView-3.0 tips and tricks https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 
