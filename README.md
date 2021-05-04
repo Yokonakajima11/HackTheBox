@@ -36,6 +36,8 @@ Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-
 - *python3 hash-id.py*
 - https://www.hackingarticles.in/beginner-guide-john-the-ripper-part-1/
 - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
+
+- https://medium.com/infosec-adventures/identifying-and-cracking-hashes-7d580b9fd7f1
 ### Active Directory
 PowerView-3.0 tips and tricks https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 
