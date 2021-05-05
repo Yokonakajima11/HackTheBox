@@ -65,6 +65,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20an
 https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
  enumeration start with “sudo -l -l” 
+ If no command is specified, the -l (list) option will list the allowed (and forbidden) commands for the invoking user (or the user specified by the -U option) on the current host. If a command is specified and is permitted by the security policy, the fully-qualified path to the command is displayed along with any command line arguments. If command is specified but not allowed, sudo will exit with a status value of 1. If the -l option is specified with an l argument (i.e. -ll), or if -l is specified multiple times, a longer list format is used. 
 
 ### command injection 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Injection/README.md
