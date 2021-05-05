@@ -64,6 +64,7 @@ https://gtfobins.github.io/
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md  <br />
 https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
+ enumeration start with “sudo -l -l” 
 
 ### command injection 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Injection/README.md
