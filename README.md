@@ -90,4 +90,8 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 
 
 ### brutforce
+#### FTP & SSH
 - hydra -l username ftp://xxxxxxxxx -P /usr/share/wordlists/rockyou.txt   
+#### zip files
+- zip2john zipName.zip >zip.hash  - for john friendly hash
+- john zipName.zip zip.hash
