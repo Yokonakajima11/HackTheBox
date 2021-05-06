@@ -78,6 +78,6 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Inject
 
  ### Gobuster
   - gobuster dir -u xxx.xx.x.x -w /usr/share/wordlists/dirb/common.txt   
-  - dirbuster directory-list-2.3-medium.txt
+  - gobuster dir -u xxx.xx.x.x -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ### other
 Enable or disable protocols, ciphers, hashes and key exchange algorithms on Windows Server 2008, 2012, 2016 and 2019 : https://www.nartac.com/Products/IISCrypto
