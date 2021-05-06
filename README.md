@@ -56,7 +56,7 @@ https://github.com/00theway/Ghostcat-CNVD-2020-10487
 ### Steganogrphy
 - https://pequalsnp-team.github.io/cheatsheet/steganography-101 <br />
 - https://github.com/DominicBreuker/stego-toolkit
-
+- https://en.wikipedia.org/wiki/List_of_file_signatures
 - binwalk -e file
 - foremost -i file : extracts data from the given file.
 
