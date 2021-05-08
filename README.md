@@ -25,7 +25,14 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 ' UNION select 1,table_name,column_name from information_schema.columns #
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
-nmap --script http-enum -p 80 xx.xx.xx.xx  
+nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
+
+- nmap -sC -sV -Av -oN nmap/anthem 10.10.139.243
+
+-sC - run all the default scripts
+-sV - find the version of all the service running on the target
+-A - run the scan in aggressive mode
+-v - show output in verbose mode
 ### RSA
 https://github.com/ius/rsatool<br />
 https://github.com/Ganapati/RsaCtfTool
