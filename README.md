@@ -97,3 +97,6 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 #### zip files
 - zip2john zipName.zip >zip.hash  - for john friendly hash
 - john zipName.zip zip.hash
+
+### process snooping
+https://github.com/DominicBreuker/pspy
