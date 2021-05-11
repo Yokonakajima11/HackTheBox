@@ -103,7 +103,7 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 
 #### web
 hydra -l <username> -P <wordlist> xxx.xxx.xx.xx http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
-
+<br /> https://infinitelogins.com/2020/02/22/how-to-brute-force-websites-using-hydra/
 #### zip files
 - zip2john zipName.zip >zip.hash  - for john friendly hash
 - john zipName.zip zip.hash
