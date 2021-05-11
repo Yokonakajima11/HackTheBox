@@ -69,6 +69,9 @@ https://github.com/00theway/Ghostcat-CNVD-2020-10487
 - foremost -i file : extracts data from the given file.
 - steghide extract -sf regular_image.jpeg
 
+<br>
+-checklist : https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
+
 ### Java Deserialization Vulnerabilities
 https://github.com/joaomatosf/jexboss
 
