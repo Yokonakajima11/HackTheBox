@@ -68,7 +68,7 @@ https://github.com/00theway/Ghostcat-CNVD-2020-10487
 - binwalk -e file
 - foremost -i file : extracts data from the given file.
 - steghide extract -sf regular_image.jpeg
-
+-  stegcracker regular_image.jpg /usr/share/wordlists/rockyou.txt 
 <br>
 -checklist : https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
 
