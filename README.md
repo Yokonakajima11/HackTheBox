@@ -101,6 +101,9 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 - hydra -l username ftp://xxxxxxxxx -P /usr/share/wordlists/rockyou.txt   
 - hydra -l username -v -V -P /usr/share/wordlists/rockyou.txt xxx.xx.xx.xx ssh
 
+#### web
+hydra -l <username> -P <wordlist> xxx.xxx.xx.xx http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
+
 #### zip files
 - zip2john zipName.zip >zip.hash  - for john friendly hash
 - john zipName.zip zip.hash
