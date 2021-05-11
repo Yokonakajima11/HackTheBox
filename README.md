@@ -16,6 +16,7 @@ sudo apt-get install terminator
 Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 ### SQL Injection
+https://www.codecademy.com/articles/sql-commands<br/>
 Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
 ' UNION select 1 from information_schema.tables # <br />
 ' UNION select 1,2 from information_schema.tables #<br />
