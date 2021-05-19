@@ -124,3 +124,8 @@ hydra -l <username> -P <wordlist> xxx.xxx.xx.xx http-post-form "/:username=^USER
 
 ### process snooping
 https://github.com/DominicBreuker/pspy
+ 
+ ### identify accounts
+ - https://namechk.com/
+ - https://whatsmyname.app/ 
+ - https://namecheckup.com/ 
