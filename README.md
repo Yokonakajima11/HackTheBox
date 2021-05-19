@@ -130,7 +130,10 @@ https://github.com/DominicBreuker/pspy
  - https://whatsmyname.app/ 
  - https://namecheckup.com/ 
 ### Reverse image lookup
- - google
+ - https://www.google.com/imghp
  - https://yandex.com/images/ 
  - https://tineye.com/ 
  - https://www.bing.com/visualsearch?FORM=ILPVIS
+ 
+ ### Image metadata viewer
+ http://exif.regex.info/ 
