@@ -14,6 +14,7 @@ sudo apt-get install terminator
 
 ### XSS
 Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection
 
 ### SQL Injection
 https://www.codecademy.com/articles/sql-commands<br/>
