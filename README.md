@@ -82,8 +82,9 @@ https://github.com/00theway/Ghostcat-CNVD-2020-10487
 https://github.com/joaomatosf/jexboss
 
 ### commands
-sudo -l -U user <br />
-https://gtfobins.github.io/
+- sudo -l -U user <br />
+- find / -perm -u=s -type f 2>/dev/null  : search the machine for executables with the SUID permission set: 
+- https://gtfobins.github.io/
 
 ### Shell
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md  <br />
