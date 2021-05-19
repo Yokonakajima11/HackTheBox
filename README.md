@@ -106,7 +106,8 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Inject
 wfuzz -c -z file,/usr/share/wordlists/dirb/big.txt localhost:80/FUZZ/note.txt
 ### other
 Enable or disable protocols, ciphers, hashes and key exchange algorithms on Windows Server 2008, 2012, 2016 and 2019 : https://www.nartac.com/Products/IISCrypto
-
+<br/>
+- enum4linux
 
 ### brutforce
 #### FTP & SSH
