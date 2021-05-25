@@ -145,3 +145,12 @@ https://github.com/DominicBreuker/pspy
  
  ### Image metadata viewer
  http://exif.regex.info/ 
+ 
+ ### SQL 
+- To access a database using the MySQL client, we would use the following syntax: **mysql -uUSERNAME -p**
+This tells the client to connect to the local database using a username of USERNAME (Note the lack of space between the switch -u and the value!), using a password which it will ask us to enter when we run the command.
+
+- The next thing we should do is use the **show databases;** command to see the databases available:
+- To enter the database we use the** use DATABASE; **command, where DATABASE is the name of the target DB. We can then show all the tables in the database with s**how tables;**
+
+- Let’s dump the users table. To do this we use the SQL command: **SELECT * FROM users;.**
