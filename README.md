@@ -94,7 +94,15 @@ https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/
  If no command is specified, the -l (list) option will list the allowed (and forbidden) commands for the invoking user (or the user specified by the -U option) on the current host. If a command is specified and is permitted by the security policy, the fully-qualified path to the command is displayed along with any command line arguments. If command is specified but not allowed, sudo will exit with a status value of 1. If the -l option is specified with an l argument (i.e. -ll), or if -l is specified multiple times, a longer list format is used. 
  
  -https://netsec.ws/?p=337 - interactive tty
- python3 -c 'import pty;pty.spawn("/bin/bash")'
+ - python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+#### Stabilize shell
+Working inside the reverse shell:
+
+- The first thing to do is use python3 -c 'import pty;pty.spawn("/bin/bash")', which uses Python to spawn a better-featured bash shell. At this point, our shell will look a bit prettier, but we still won’t be able to use tab autocomplete or the arrow keys, and Ctrl + C will still kill the shell.
+- Step two is: export TERM=xterm – this will give us access to term commands such as clear.
+- Finally (and most importantly) we will background the shell using Ctrl + Z. Back in our own terminal we use stty raw -echo; fg. This does two things: first, it turns off our own terminal echo (which gives us access to tab autocompletes, the arrow keys, and Ctrl + C to kill processes). It then foregrounds the shell, thus completing the process.
+
 
 ### command injection 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Command%20Injection/README.md
