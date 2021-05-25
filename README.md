@@ -130,6 +130,7 @@ hydra -l <username> -P <wordlist> xxx.xxx.xx.xx http-post-form "/:username=^USER
 #### zip files
 - zip2john zipName.zip >zip.hash  - for john friendly hash
 - john zipName.zip zip.hash
+- fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt -v ./file.zip
 
 ### process snooping
 https://github.com/DominicBreuker/pspy
