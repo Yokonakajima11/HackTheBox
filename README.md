@@ -85,7 +85,7 @@ https://github.com/joaomatosf/jexboss
 ### commands
 - sudo -l -U user <br />
 - find / -perm -u=s -type f 2>/dev/null  : search the machine for executables with the SUID permission set: 
-- find / -user USER -perm -4000 -exec ls -ldb {} \; earch the machine for executables with the SUID permission set:  for specific user
+- find / -user igor -perm -4000 -exec ls -ldb {} \; earch the machine for executables with the SUID permission set:  for specific user
 - https://gtfobins.github.io/
 
 ### Shell
