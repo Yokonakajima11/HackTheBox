@@ -29,6 +29,7 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 - https://github.com/payloadbox/sql-injection-payload-list
+- https://www.codecademy.com/articles/sql-commands
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
