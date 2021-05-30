@@ -42,6 +42,8 @@ nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
 
 ### SMB 
 -  nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse  IP: enumerate shares
+-  smbclient //<ip>/anonymous
+- smbget -R smb://<ip>/anonymous 
 ### RSA
 https://github.com/ius/rsatool<br />
 https://github.com/Ganapati/RsaCtfTool
