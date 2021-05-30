@@ -39,6 +39,9 @@ nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
 -sV - find the version of all the service running on the target
 -A - run the scan in aggressive mode
 -v - show output in verbose mode
+
+### SMB 
+-  nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse  IP: enumerate shares
 ### RSA
 https://github.com/ius/rsatool<br />
 https://github.com/Ganapati/RsaCtfTool
