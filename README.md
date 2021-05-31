@@ -53,7 +53,7 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 - git clone https://github.com/stamparm/DSSS.git && cd DSSS/
 - Damn Small SQLi Scanner is an awesome little python script that allows us to check for SQLi vulnerability. Simply provide it with a link to the PHP parameter to run it.
 - Main syntax: python3 dsss.py -u "LINK"
-
+- extra: https://resources.infosecinstitute.com/topic/dumping-a-database-using-sql-injection/
 ### SQL 
 - To access a database using the MySQL client, we would use the following syntax: **mysql -uUSERNAME -p**
 This tells the client to connect to the local database using a username of USERNAME (Note the lack of space between the switch -u and the value!), using a password which it will ask us to enter when we run the command.
