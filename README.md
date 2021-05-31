@@ -74,7 +74,7 @@ nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
 -sV - find the version of all the service running on the target
 -A - run the scan in aggressive mode
 -v - show output in verbose mode
-
+- nmap --script vuln -p X <target ip>
 ### SMB 
 -  nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse  IP: enumerate shares
 -  smbclient //<ip>/anonymous
