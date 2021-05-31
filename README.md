@@ -44,7 +44,7 @@ sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 - https://github.com/payloadbox/sql-injection-payload-list
 - https://www.codecademy.com/articles/sql-commands
-
+- https://www.security-sleuth.com/sleuth-blog/2017/1/3/sqlmap-cheat-sheet
 <br />
 <br />
 - git clone https://github.com/stamparm/DSSS.git && cd DSSS/
