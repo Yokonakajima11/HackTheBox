@@ -30,6 +30,12 @@ sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 - https://github.com/payloadbox/sql-injection-payload-list
 - https://www.codecademy.com/articles/sql-commands
+
+<br />
+<br />
+- git clone https://github.com/stamparm/DSSS.git && cd DSSS/
+- Damn Small SQLi Scanner is an awesome little python script that allows us to check for SQLi vulnerability. Simply provide it with a link to the PHP parameter to run it.
+- Main syntax: python3 dsss.py -u "LINK"
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
 nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
