@@ -206,3 +206,7 @@ https://github.com/DominicBreuker/pspy
  - wpscan --url http://xxxxx -e
  - get users and add them to user.txt to make a distionary of users to bruteforce
  - wpscan --url http://xxxx -P /usr/share/wordlists/rockyou.txt -U user.txt
+
+ 
+ ### Windows commands for info gathering:
+ https://www.fuzzysecurity.com/tutorials/16.html
