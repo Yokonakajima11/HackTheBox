@@ -173,6 +173,7 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 - enum4linux
 
 ### brutforce
+ - https://github.com/gnebbia/hydra_notes
 #### FTP & SSH
 - hydra -l username ftp://xxxxxxxxx -P /usr/share/wordlists/rockyou.txt   
 - hydra -l username -v -V -P /usr/share/wordlists/rockyou.txt xxx.xx.xx.xx ssh
