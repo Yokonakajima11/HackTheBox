@@ -213,3 +213,6 @@ https://github.com/DominicBreuker/pspy
  ### Windows commands for info gathering:
  - https://www.fuzzysecurity.com/tutorials/16.html
 - JAWS - Just Another Windows (Enum) Script: https://github.com/411Hall/JAWS
+ 
+ ### Tomcat manager exploit
+ https://www.hackingarticles.in/multiple-ways-to-exploit-tomcat-manager/
