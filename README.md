@@ -75,6 +75,8 @@ This tells the client to connect to the local database using a username of USERN
 - To enter the database we use the** use DATABASE; **command, where DATABASE is the name of the target DB. We can then show all the tables in the database with s**how tables;**
 
 - Let’s dump the users table. To do this we use the SQL command: **SELECT * FROM users;.**
+
+- https://www.hackingarticles.in/mssql-penetration-testing-metasploit/
  
 ### Nmap
 Scan for vulnerabilities: nmap -Pn --script vuln 10.x.x.x
