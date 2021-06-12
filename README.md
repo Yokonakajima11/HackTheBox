@@ -143,6 +143,10 @@ https://github.com/joaomatosf/jexboss
 - find / -perm -u=s -type f 2>/dev/null  : search the machine for executables with the SUID permission set: 
 - find / -user igor -perm -4000 -exec ls -ldb {} \; earch the machine for executables with the SUID permission set:  for specific user
 - https://gtfobins.github.io/
+ 
+ <br /> 
+in place where i can save file: echo "/bin/bash" >> root.sh
+<br />chmod +x root.sh
 
 ### Shell
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md  <br />
