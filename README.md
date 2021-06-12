@@ -220,3 +220,6 @@ https://github.com/DominicBreuker/pspy
  
  ### Tomcat manager exploit
  https://www.hackingarticles.in/multiple-ways-to-exploit-tomcat-manager/
+ 
+ ### Cool links: 
+ https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
