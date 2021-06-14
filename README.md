@@ -227,3 +227,4 @@ https://github.com/DominicBreuker/pspy
  
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
+ - https://guif.re/linuxeop
