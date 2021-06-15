@@ -179,7 +179,10 @@ wfuzz -c -z file,/usr/share/wordlists/dirb/big.txt localhost:80/FUZZ/note.txt
 Enable or disable protocols, ciphers, hashes and key exchange algorithms on Windows Server 2008, 2012, 2016 and 2019 : https://www.nartac.com/Products/IISCrypto
 <br/>
 - enum4linux
-
+### SSH
+ openssh to RS key:
+ -convert the private key to the intermediate format SSHv2: puttygen yourkey -O private-sshcom -o newkey
+- convert it back to RSA/PEM: ssh-keygen -i -f newkey > newkey_in_right_format
 ### brutforce
  - https://github.com/gnebbia/hydra_notes
 #### FTP & SSH
