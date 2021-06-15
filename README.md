@@ -228,3 +228,5 @@ https://github.com/DominicBreuker/pspy
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
+ - http://strongcourage.github.io/2020/05/03/enum.html
+ - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
