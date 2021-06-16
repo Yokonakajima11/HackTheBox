@@ -237,6 +237,8 @@ https://github.com/DominicBreuker/pspy
 <br />192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd
  <br /> 192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd%00
  
+ - https://www.hackingarticles.in/comprehensive-guide-to-local-file-inclusion/
+ 
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
