@@ -237,6 +237,7 @@ https://github.com/DominicBreuker/pspy
 <br />192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd
  <br /> 192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd%00
  
+ - https://book.hacktricks.xyz/pentesting-web/file-inclusion
  - https://www.hackingarticles.in/comprehensive-guide-to-local-file-inclusion/
  
  ### Cool links: 
