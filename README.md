@@ -235,6 +235,7 @@ https://github.com/DominicBreuker/pspy
  - In order to perform the basic LFI attack, we’ll be manipulating the “URL language parameter” with “/etc/passwd” to access the password file present in the local system as:
 
 <br />192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd
+ <br /> 192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd%00
  
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
