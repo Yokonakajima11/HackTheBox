@@ -230,6 +230,12 @@ https://github.com/DominicBreuker/pspy
  
  ### IRC 
  https://www.hackingtutorials.org/metasploit-tutorials/hacking-unreal-ircd-3-2-8-1/
+ 
+ ### LFI
+ - In order to perform the basic LFI attack, we’ll be manipulating the “URL language parameter” with “/etc/passwd” to access the password file present in the local system as:
+
+<br />192.168.0.11/bWAPP/rlfi.php?language=/etc/passwd
+ 
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
