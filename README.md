@@ -240,6 +240,9 @@ https://github.com/DominicBreuker/pspy
  - https://book.hacktricks.xyz/pentesting-web/file-inclusion
  - https://www.hackingarticles.in/comprehensive-guide-to-local-file-inclusion/
  
+ 
+ ### CRON
+  If you're unfamiliar with crontab schedule expression, you can use https://crontab.guru.
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
