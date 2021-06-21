@@ -60,7 +60,7 @@ Retrieve column names of table ‘users’
 - sqlmap --url http://tbfc.net/login.php --tables --columns <br/>
 <br/> intercept in burp, save item , save request then:
 - sqlmap -r {request} --batch (replace {request} with your file name).
-
+- https://www.hackingarticles.in/database-penetration-testing-using-sqlmap-part-1/
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 - https://github.com/payloadbox/sql-injection-payload-list
 - https://www.codecademy.com/articles/sql-commands
