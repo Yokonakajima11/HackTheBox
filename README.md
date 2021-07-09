@@ -301,3 +301,11 @@ choice.
  - https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist 
  - **https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/ **- Basic Linux Privilege Escalation
  - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md#linux---privilege-escalation
+ 
+ ### LinEnum
+ There are two ways to get LinEnum on the target machine. 
+ <br />
+ - The first way, is to go to the directory that you have your local copy of LinEnum stored in, and start a Python web server using "**python3 -m http.server 8000**" . 
+ - Then using "**wget**" on the target machine, and your local IP, you can grab the file from your local machine .
+ - Then make the file executable using the command "**chmod +x FILENAME.sh**".
+ 
