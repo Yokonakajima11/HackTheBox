@@ -328,3 +328,7 @@ choice.
 - export PATH=/tmp:$PATH -change path variables
  
  
+ ### XXE  
+ https://pentestbook.six2dez.com/enumeration/web/xxe
+ 
+ 
