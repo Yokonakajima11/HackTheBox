@@ -331,6 +331,8 @@ choice.
  ### XXE  
  https://pentestbook.six2dez.com/enumeration/web/xxe
  
+ ### Directory traversal
+ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Directory%20Traversal/Intruder/dotdotpwn.txt
  
  ### WINDOWS
  
