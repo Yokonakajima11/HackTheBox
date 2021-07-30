@@ -153,6 +153,7 @@ in place where i can save file: echo "/bin/bash" >> root.sh
  
  ### POSIX capabilities
  https://www.hackingarticles.in/linux-privilege-escalation-using-capabilities/
+ https://book.hacktricks.xyz/linux-unix/privilege-escalation/linux-capabilities
 ### Shell
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md  <br />
 https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
