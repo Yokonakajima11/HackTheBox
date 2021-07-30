@@ -332,3 +332,7 @@ choice.
  https://pentestbook.six2dez.com/enumeration/web/xxe
  
  
+ ### WINDOWS
+ 
+https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
+ 
