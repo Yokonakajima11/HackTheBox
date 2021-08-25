@@ -97,6 +97,7 @@ nmap --script http-enum -p 80 xx.xx.xx.xx  <br />
 -  nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse  IP: enumerate shares
 -  smbclient //<ip>/anonymous
 - smbget -R smb://<ip>/anonymous 
+ - https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html
 ### RSA
 https://github.com/ius/rsatool<br />
 https://github.com/Ganapati/RsaCtfTool
