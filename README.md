@@ -343,3 +343,8 @@ choice.
  
 https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
  
+ 
+ ### LDAP
+ - https://cheatsheet.haax.fr/windows-systems/privilege-escalation/delegations/
+ - http://blog.redxorblue.com/2019/12/no-shells-required-using-impacket-to.html
+ 
