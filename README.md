@@ -348,3 +348,8 @@ https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
  - https://cheatsheet.haax.fr/windows-systems/privilege-escalation/delegations/
  - http://blog.redxorblue.com/2019/12/no-shells-required-using-impacket-to.html
  
+ ### Routing
+- https://pentest.blog/explore-hidden-networks-with-double-pivoting/
+ 
+ 
+- https://github.com/JasonTurley/eJPT/blob/main/cheat-sheet.md
