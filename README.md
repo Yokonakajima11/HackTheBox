@@ -353,3 +353,6 @@ https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
  
  
 - https://github.com/JasonTurley/eJPT/blob/main/cheat-sheet.md
+ 
+ ### Favicon DB
+ https://wiki.owasp.org/index.php/OWASP_favicon_database
