@@ -15,6 +15,9 @@ update-rc.d xrdp enable <br />
 ### Install Terminator
 sudo apt-get install terminator
 
+### Passive & active recon
+- https://dnsdumpster.com/
+- Shodan.io 
 
 ### XSS
 Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
