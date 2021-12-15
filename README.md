@@ -369,3 +369,10 @@ https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation
  
  LFI
  - displaying php: http://example.thm.labs/page.php?file=php://filter/convert.base64-encode/resource=/etc/passwd
+
+ 
+### Add-ons for Firefox and Chrome
+
+- FoxyProxy lets you quickly change the proxy server you are using to access the target website. This browser extension is convenient when you are using a tool such as Burp Suite or if you need to switch proxy servers regularly. - https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard
+- User-Agent Switcher and Manager gives you the ability to pretend to be accessing the webpage from a different operating system or different web browser. - https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/
+- Wappalyzer provides insights about the technologies used on the visited websites. Such extension is handy, primarily when you collect all this information while browsing the website like any other user.- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
