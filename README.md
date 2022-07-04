@@ -23,6 +23,11 @@ sudo apt-get install terminator
 Cheatsheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection
 
+### Command Injection
+
+https://github.com/payloadbox/command-injection-payload-list
+
+
 ### SQL Injection
 - https://github.com/payloadbox/sql-injection-payload-list#generic-sql-injection-payloads< br />
 - https://www.codecademy.com/articles/sql-commands<br/>
